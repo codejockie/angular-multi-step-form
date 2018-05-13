@@ -17,6 +17,7 @@ import { AppRoutingModule }   from './app-routing.module';
 
 /* Shared Service */
 import { FormDataService }    from './data/form-data.service';
+import { WorkflowService }    from './workflow/workflow.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,10 @@ import { FormDataService }    from './data/form-data.service';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [{ provide: FormDataService, useClass: FormDataService }],
+  providers: [
+    { provide: FormDataService, useClass: FormDataService },
+    { provide: WorkflowService, useClass: WorkflowService }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
