@@ -16,7 +16,7 @@ import { ResultComponent }    from './result/result.component';
 import { AppRoutingModule }   from './app-routing.module';
 
 /* Shared Service */
-import { FormDataService }    from './data/formData.service';
+import { FormDataService }    from './data/form-data.service';
 
 @NgModule({
   declarations: [

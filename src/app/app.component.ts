@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
 
-import { FormDataService } from "./data/formData.service";
+import { FormDataService } from "./data/form-data.service";
 
 @Component({
   selector: "multi-step-wizard-app",
