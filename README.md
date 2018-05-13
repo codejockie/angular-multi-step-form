@@ -1,4 +1,6 @@
-# AngularMultiStep
+# Angular Multi Step Form
+
+This project was referenced from [CC28 Technology](https://www.cc28tech.com/angular-multi-step-wizard-part-1)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
 
@@ -22,6 +24,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
+
+## Author
+John Kennedy (@codejockie)
++ [GitHub](https://www.github.com/codejockie)
++ [Twitter](https://www.twitter.com/codejockie)
 
 ## Further help
 
